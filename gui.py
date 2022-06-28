@@ -10,6 +10,7 @@ from requests import Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 
+
 selected_coins_array = ['BTC-USD','ETH-USD','LTC-USD','USDT-USD','XMR-USD','XRP-USD','ZEC-USD','XLM-USD','BNB-USD',
                         'USDC-USD','SOL-USD','LUNA-USD','ADA-USD',
                       'UST-USD','BUSD-USD','DOGE-USD','AVAX-USD','DOT-USD','SHIB-USD','WBTC-USD']
